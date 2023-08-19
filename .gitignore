@@ -5,3 +5,9 @@ __pycache__/
 
 # Ignore virtual environment
 pdf_venv/
+
+# Ignore Mac OS files
+*.DS_Store
+
+# Ignore the Idea folder (IDE for development)
+.idea/
