@@ -10,7 +10,16 @@ pdf_path = "/Users/bmassacci/Downloads/978-981-19-6897-6.pdf"
 
 
 pdf_operations = BasicPDFOperations()
+# try:
+#     pdf_operations.text_extractor(input_path=pdf_path,
+#                                   pages=[1, 2, 3],
+#                                   output_path="/Users/bmassacci/Desktop/deleteme.txt")
+# except Exception as e:
+#     print(f"Error: {str(e)}")
+
+
+# Example usage
 try:
-    pdf_operations.text_extractor(pdf_path, [1, 2, 3], "/Users/bmassacci/Desktop/deleteme.txt")
+    pdf_operations.extract_pages(pdf_path, [1, 3, 5], "/Users/bmassacci/Desktop/deleteme.pdf")
 except Exception as e:
     print(f"Error: {str(e)}")
