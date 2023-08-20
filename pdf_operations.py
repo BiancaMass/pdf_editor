@@ -60,7 +60,6 @@ class BasicPDFOperations:
         except Exception as e:
             raise Exception(f"An error occurred while extracting pages: {str(e)}")
 
-    # TODO: Extracting a single or multiple pages and saving to a new pdf
 
     # TODO: Pasting pages together
 

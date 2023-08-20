@@ -6,3 +6,5 @@ def validate_input(input_data):
     if not input_data:
         raise ValueError("Input data is empty.")
     # Add more validation logic as needed
+
+# Todo: add more tests for va;idation
