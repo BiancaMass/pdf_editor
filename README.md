@@ -1,7 +1,8 @@
 # PDF Editor
 
-Project under development. Last update 19/08/23
-Allows you to edit PDF files for free
+Project under development. Last update 19/08/23.
+
+Allows you to edit PDF files for free.
 
 ## Table of Contents
 
@@ -17,7 +18,7 @@ Allows you to edit PDF files for free
 
 ## About
 
-Briefly describe your project and its main goals.
+Briefly describe the project and its main goals.
 
 ## Getting Started
 
@@ -31,23 +32,27 @@ For now, getting started guide for myself (for MacOS):
 
 ### Prerequisites
 
-List any software, tools, or dependencies required to run the project.
-See the requirement.txt, python version, etc.
+Built on python 3.10.0.
+See [requirements.txt](requirements.txt) for library version information.
+
+TODO: OS information.
 
 ### Installation
 
 Step-by-step instructions on how to install and set up the project.
+Will come once I built the interface (either for terminal or GUI).
 
 ## Usage
 
-Explain how to use your project, including command-line instructions, examples, etc.
+Explain how to use the project, including command-line instructions, examples, etc.
 
 ## Contributing
 Relevant to author. Follow these guidelines to contribute.
 ### Commit Message Guidelines
 
 To maintain a clean and organized Git history, please use the Conventional Commits style for commit 
-messages. [Learn more](https://www.conventionalcommits.org/).
+messages. [Learn more](https://www.conventionalcommits.org/en/v1.0.0/).
+
 Commit message should be in the form 
 
 `type(scope): summary`
@@ -64,7 +69,6 @@ Commit message should be in the form
 | `test`     | Adding or modifying tests.                         |
 | `perf`     | Performance improvements.                         |
 
-Feel free to copy and paste this Markdown table into your project documentation or wherever you need it.
 
 - `scope` (Optional): Provides additional context about the part of the codebase affected by the change.
 - `summary`: A concise one-line summary in the present tense that describes the change.
